@@ -97,13 +97,13 @@ export default function Home() {
                   />
                   <div className="buttons"></div>
                   <div className="text-5xl flex justify-center gap-16 py-3 text-gray-200">
-                    <Link href="">
+                    <Link href="https://twitter.com/kcihemelandu">
                       <AiFillTwitterCircle className="hover:text-white hover:text-6xl cursor-pointer" />
                     </Link>
-                    <Link href="">
+                    <Link href="https://www.linkedin.com/in/kcihemelandu/">
                       <AiFillLinkedin className="hover:text-white cursor-pointer hover:text-6xl" />
                     </Link>
-                    <Link href="">
+                    <Link href="https://github.com/OfficialKingsley">
                       <AiFillGithub className="hover:text-white cursor-pointer hover:text-6xl" />
                     </Link>
                   </div>
@@ -516,16 +516,16 @@ export default function Home() {
                 </form>
               </div>
               <div className="text-3xl flex justify-center gap-16 py-3 text-gray-200">
-                <Link href="https://twitter.com">
+                <Link href="https://twitter.com/kcihemelandu">
                   <AiFillTwitterCircle className="hover:text-white hover:text-4xl cursor-pointer" />
                 </Link>
-                <Link href="https://linkedin.com">
+                <Link href="https://linkedin.com/in/kcihemelandu">
                   <AiFillLinkedin className="hover:text-white cursor-pointer hover:text-4xl" />
                 </Link>
                 <Link href="https://github.com/OfficialKingsley">
                   <AiFillGithub className="hover:text-white cursor-pointer hover:text-4xl" />
                 </Link>
-                <Link href="https://gitlab.com/">
+                <Link href="https://gitlab.com/OfficialKingsley">
                   <AiFillGitlab className="hover:text-white cursor-pointer hover:text-4xl" />
                 </Link>
               </div>
