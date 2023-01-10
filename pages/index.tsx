@@ -464,10 +464,14 @@ export default function Home() {
                 <form
                   action=""
                   className="bg-gray-900 rounded-2xl p-4 max-w-2xl w-full font-burtons"
+                  data-netlify="true"
+                  name="Contact Form"
+                  method="POST"
                 >
                   <div className="m-2">
                     <input
                       type="text"
+                      name="Name"
                       placeholder="Full Name"
                       className="rounded p-2 outline-none w-full placeholder:text-gray-700"
                     />
@@ -475,8 +479,8 @@ export default function Home() {
                   <div className="m-2">
                     <input
                       type="email"
-                      name=""
-                      id=""
+                      name="Email"
+                      id="email"
                       placeholder="Email"
                       className="rounded p-2 outline-none w-full placeholder:text-gray-700"
                     />
@@ -486,6 +490,7 @@ export default function Home() {
                       type="text"
                       placeholder="Phone Number"
                       className="rounded p-2 outline-none w-full placeholder:text-gray-700"
+                      name="Phone Number"
                     />
                   </div>
                   <div className="m-2">
@@ -493,11 +498,12 @@ export default function Home() {
                       type="text"
                       placeholder="Title"
                       className="rounded p-2 outline-none w-full placeholder:text-gray-700"
+                      name="Message Title"
                     />
                   </div>
                   <div className="m-2">
                     <textarea
-                      name=""
+                      name="Message Body"
                       id=""
                       cols={30}
                       rows={10}
