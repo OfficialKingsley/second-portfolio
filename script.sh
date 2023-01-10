@@ -1,3 +1,2 @@
-npm i react-isotope react-type-animation --force
-npm install
+npm install --force
 npm run build
