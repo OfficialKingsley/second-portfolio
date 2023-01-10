@@ -462,7 +462,7 @@ export default function Home() {
               <Divider type={"red"} />
               <div className="flex justify-center">
                 <form
-                  action=""
+                  action="https://formspree.io/f/xyyozpra"
                   className="bg-gray-900 rounded-2xl p-4 max-w-2xl w-full font-burtons"
                   data-netlify="true"
                   name="Contact Form"
